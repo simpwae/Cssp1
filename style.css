@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+/* justify-content: center;    */
+  
+}
+h1{
+    /* border: 1px dotted gray;
+    width: 500px;
+    margin-left: 400px;
+    text-shadow: 2px 2px gray;
+    text-align: center;
+    color: blue;
+    letter-spacing: 0.5em; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* border-radius: 12px; */
+
+}
+/* h1:hover{
+    background-color: black;
+}  */
+
+header {
+    /* background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid green;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 100px; */
+    justify-content: center;
+}
+
+.image-container {
+       display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+.mm{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+}
+\\\
+.image-container .image-box {
+    /* flex: 1 0 calc(33.33% - 20px); */
+    margin: 10px;
+    text-align: center;
+}
+
+.image-container img {
+    width: 250px;
+    height: 200px;
+    opacity: 0.8;
+}
+
+.ww {
+    border: 1px solid green;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px 20px 20px 20px;
+    margin-left: 50px;
+}
+
+.mm {
+    border: 1px solid green;
+    background-color: white;
+    padding: 20px;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 20px;
+    
+}
+
+.c{
+    border: 1px solid green;
+    background-color: white;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.d{
+    border: 1px solid green;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+}
+.e{
+    border: 1px solid green;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: white;
+    margin-left: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.y{
+    border: 1px solid green;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.z{
+    border: 1px solid green;
+    margin-right: 750px;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+} 
